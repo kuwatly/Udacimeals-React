@@ -11,7 +11,7 @@ function food(state = {}, action) {
 
       return {
         ...state,
-        [recipe.label]: action
+        [recipe.label]: recipe,
       }
     default:
       return state
